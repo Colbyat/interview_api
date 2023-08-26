@@ -8,7 +8,7 @@ api = Api(app)
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return send_from_directory("frontend/", "index.html")
+    return ""
 
 
 api.add_resource(GetDataHandler, "/getdata")
